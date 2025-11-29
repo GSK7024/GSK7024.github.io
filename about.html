@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Meet the SmartHomePulse team - Expert technicians and smart home enthusiasts dedicated to bringing you honest, hands-on reviews of the latest smart home technology.">
+    <title>About Us - SmartHomePulse</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            --royal-blue: #1e3a8a;
+            --navy: #0f172a;
+            --gold: #d4af37;
+            --gold-dark: #b8941f;
+            --text-dark: #1e293b;
+            --text-light: #64748b;
+            --white: #ffffff;
+            --cream: #fdfbf7
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box
+        }
+
+        html {
+            scroll-behavior: smooth
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--cream);
+            color: var(--text-dark);
+            line-height: 1.8
+        }
+
+        header {
+            background: rgba(15, 23, 42, 0.98);
+            backdrop-filter: blur(20px);
+            padding: 0.9rem 5%;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid var(--gold);
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1)
+        }
+
+        .logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: var(--gold);
+            text-decoration: none
+        }
+
+        nav a {
+            color: rgba(255, 255, 255, 0.9);
+            text-decoration: none;
+            margin-left: 2rem;
+            font-size: 0.85rem;
+            transition: color 0.3s
+        }
+
+        nav a:hover {
+            color: var(--gold)
+        }
+
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 4rem 5% 6rem
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3rem;
+            line-height: 1.2;
+            color: var(--navy);
+            margin-bottom: 2rem;
+            text-align: center
+        }
+
+        h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
+            color: var(--royal-blue);
+            margin-top: 3rem;
+            margin-bottom: 1rem
+        }
+
+        p {
+            margin-bottom: 1.5rem;
+            font-size: 1.05rem
+        }
+
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin: 3rem 0
+        }
+
+        .team-member {
+            background: var(--white);
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+            border: 1px solid rgba(212, 175, 55, 0.2)
+        }
+
+        .team-member h3 {
+            color: var(--navy);
+            margin-bottom: 0.5rem
+        }
+
+        .team-member .role {
+            color: var(--gold-dark);
+            font-weight: 600;
+            font-size: 0.9rem;
+            margin-bottom: 1rem
+        }
+
+        .values-list {
+            background: var(--white);
+            padding: 2rem;
+            border-radius: 12px;
+            margin: 2rem 0;
+            border-left: 4px solid var(--gold)
+        }
+
+        .values-list ul {
+            list-style-position: inside;
+            margin-left: 1rem
+        }
+
+        .values-list li {
+            margin-bottom: 1rem
+        }
+
+        footer {
+            background: var(--navy);
+            color: rgba(255, 255, 255, 0.7);
+            padding: 3rem 5%;
+            text-align: center;
+            border-top: 1px solid var(--gold)
+        }
+
+        .footer-links a {
+            color: rgba(255, 255, 255, 0.6);
+            text-decoration: none;
+            margin: 0 1rem
+        }
+
+        @media(max-width:768px) {
+            h1 {
+                font-size: 2.2rem
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header><a href="index.html" class="logo">SmartHomePulse</a>
+        <nav><a href="index.html">Home</a><a href="about.html">About</a><a
+                href="mailto:hello@smarthomepulse.com">Contact</a></nav>
+    </header>
+    <main>
+        <h1>About SmartHomePulse</h1>
+
+        <p>SmartHomePulse was founded in 2023 by a team of certified technicians and smart home enthusiasts who were
+            frustrated by the lack of honest, real-world product reviews. We noticed that most tech review sites were
+            either paid endorsements or regurgitated spec sheets without actual testing.</p>
+
+        <p>Our mission is simple: <strong>We buy it, we install it, we live with it, and then we review it.</strong>
+            Every product featured on SmartHomePulse has been purchased at retail price and tested in real homes for at
+            least 30 days before we publish our findings.</p>
+
+        <h2>Our Testing Process</h2>
+        <div class="values-list">
+            <ul>
+                <li><strong>Real-World Testing:</strong> We install products in actual homes, not controlled lab
+                    environments</li>
+                <li><strong>Long-Term Evaluation:</strong> Minimum 30-day testing period to catch issues that don't
+                    appear immediately</li>
+                <li><strong>Independent Purchasing:</strong> We buy all products at retail price - no sponsored reviews
+                </li>
+                <li><strong>Expert Analysis:</strong> Our team includes certified electricians, network engineers, and
+                    HVAC technicians</li>
+                <li><strong>Community Feedback:</strong> We incorporate feedback from thousands of homeowners in our
+                    community</li>
+            </ul>
+        </div>
+
+        <h2>Meet the Team</h2>
+        <div class="team-grid">
+            <div class="team-member">
+                <h3>Alex Rodriguez</h3>
+                <div class="role">Lead Technician & Founder</div>
+                <p>Former Apple Genius with 15 years of experience in consumer electronics. Alex holds certifications in
+                    low-voltage wiring and network infrastructure.</p>
+            </div>
+
+            <div class="team-member">
+                <h3>Sarah Chen</h3>
+                <div class="role">Smart Home Specialist</div>
+                <p>Licensed electrician specializing in home automation. Sarah has installed over 500 smart home systems
+                    and holds certifications from Lutron, Control4, and Crestron.</p>
+            </div>
+
+            <div class="team-member">
+                <h3>Marcus Williams</h3>
+                <div class="role">Security Expert</div>
+                <p>Former network security analyst with expertise in IoT device security and privacy. Marcus tests all
+                    smart devices for vulnerabilities before recommending them.</p>
+            </div>
+        </div>
+
+        <h2>Why Trust Us?</h2>
+        <p>Unlike many review sites, we don't accept payment for positive reviews, and we don't use affiliate links as
+            our primary revenue source. Our reviews are funded by advertising that's clearly labeled and separate from
+            our editorial content.</p>
+
+        <p>We believe in transparency. If a product fails our testing, we say so - even if it's from a major brand. Our
+            readers deserve the truth, not marketing spin.</p>
+
+        <h2>Contact Us</h2>
+        <p>Have questions about a product? Want to suggest a review topic? Reach out to us at <a
+                href="mailto:hello@smarthomepulse.com" style="color:var(--gold-dark)">hello@smarthomepulse.com</a></p>
+    </main>
+    <footer>
+        <div class="footer-links"><a href="about.html">About Us</a><a
+                href="mailto:hello@smarthomepulse.com">Contact</a><a href="privacy.html">Privacy Policy</a></div>
+        <p style="margin-top:1rem;font-size:0.8rem">&copy; 2025 SmartHomePulse.com. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
